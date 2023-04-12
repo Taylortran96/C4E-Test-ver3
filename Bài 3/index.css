@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+:root {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 100px;
+}
+/*Top*/
+.top-container{
+    margin-bottom: 70px;
+}
+.title{
+    font-size: 32px;
+    font-family: 'Merriweather', serif;
+    color: #151B32;
+    font-weight: 900;
+}
+.top-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+    font-weight: 500;
+}
+.search-wrapper{
+    width: 327px;
+    height: 64px;
+    border: 1px solid #BFC8E6;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+.search-icon{
+    width: 32px;
+    height: 32px;
+    margin-left: 20px;
+    margin-right: 8px;
+}
+.search-input{
+    flex: 1;
+    font-size: 16px;
+    border: none;
+    outline: none;
+
+}
+.click-wrapper{
+    display: flex;
+}
+.button{
+    font-size: 16px;
+    color: #151B32;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    cursor: pointer;
+}
+.highlight{
+    background-color: rgba(132, 159, 255, 1);
+    border-radius: 8px;
+    color: white;
+}
+
+/*bottom*/
+.bottom-containers{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.account-wrapper{
+    width: 327px;
+    height: 208px; 
+    border-radius: 16px;
+    background-color: #FBFCFF;
+    padding: 24px;
+    display: flex;
+}
+.account-image{
+    width: 97px;
+    height: 97px;
+    margin-right: 16px;
+}
+.infor-wrapper{
+    margin-right: 65px;
+    display: flex;
+    flex-direction: column;
+}
+.fullname{
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    color: #151B32;
+    margin-bottom: 4px;
+    font-weight: 900;
+}
+.address{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #151B32;
+    font-weight: 500;
+}
+.item-wrapper{
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+.item{
+    width: fit-content;
+    border: 1px solid#BFC8E6;
+    border-radius: 10px;
+    padding: 2px 8px;
+    background-color: rgba(255, 255, 255, 1);
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: #516FD5;  
+}
